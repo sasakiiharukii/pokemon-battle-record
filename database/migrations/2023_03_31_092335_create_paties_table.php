@@ -21,6 +21,12 @@ return new class extends Migration
             $table->foreignId('pokemon4_id')->constrained('pokemons');
             $table->foreignId('pokemon5_id')->constrained('pokemons');
             $table->foreignId('pokemon6_id')->constrained('pokemons');
+            $table->foreignId('pokemon1_item_id')->constrained('items');
+            $table->foreignId('pokemon2_item_id')->constrained('items');
+            $table->foreignId('pokemon3_item_id')->constrained('items');
+            $table->foreignId('pokemon4_item_id')->constrained('items');
+            $table->foreignId('pokemon5_item_id')->constrained('items');
+            $table->foreignId('pokemon6_item_id')->constrained('items');
             $table->timestamps();
         });
     }
