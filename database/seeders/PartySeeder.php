@@ -23,6 +23,12 @@ class PartySeeder extends Seeder
             'pokemon4_id' => '4',
             'pokemon5_id' => '5',
             'pokemon6_id' => '6',
+            'pokemon1_item_id' => '1',
+            'pokemon2_item_id' => '2',
+            'pokemon3_item_id' => '3',
+            'pokemon4_item_id' => '4',
+            'pokemon5_item_id' => '5',
+            'pokemon6_item_id' => '6',
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
         ]);

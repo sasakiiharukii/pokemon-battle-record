@@ -7,10 +7,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+        <link href="{{ asset('/css/style.css')}}" rel="stylesheet">
     </head>
     <body class="antialiased">
-       <h1 style="text-align:center">Pokemon Battle Record</h1>
+       <h1 class="page_title">Pokemon Battle Record</h1>
        <div class='battle_records'>
            @foreach($battle_records as $battle_record)
                 <div class='battle_record'>
