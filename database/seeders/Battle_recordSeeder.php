@@ -34,7 +34,6 @@ class Battle_recordSeeder extends Seeder
             'oponent_selected_pokemon2_item_id' => '5',
             'oponent_selected_pokemon3_item_id' => '6',
             'is_win' => '1',
-            'now' => new DateTime(),
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
         ]);

@@ -15,3 +15,7 @@ use App\Http\Controllers\RecordController;
 */
 
 Route::get('/', [RecordController::class, 'index']);
+Route::get('/battle_records/create', [RecordController::class, 'create']);
+Route::post('records', [RecordController::class, 'store']);
+Route::get('/records/{record}', [RecordController::class, 'show']); 
+
