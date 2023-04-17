@@ -11,15 +11,10 @@
     </head>
     <body class="antialiased">
        <h1 class="page_title">Pokemon Battle Record</h1>
-       <a href="/battle_records/create">record</a>
+       <a href="/">back</a>
        <div class='battle_records'>
-           @foreach($battle_records as $battle_record)
-                <div class='battle_record'>
-                    <a href="/records/{{ $battle_record->id }}">
-                    <h2 class='title'>{{ $battle_record->created_at }}</h2>
-                    </a>
-                </div>
-            @endforeach
+            <h2 class='title'>{{ $battle_record->selected_pokemon1_id }}</h2>  
+            //selected_pokemon1_idを変えてリレーションを行う（モデルを作る）
         </div>
     </body>
 </html>
